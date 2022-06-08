@@ -40,31 +40,31 @@
 
             <TextView
                 android:id="@+id/txt_tit"
-                android:layout_width="match_parent"
+                android:layout_width="330dp"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/nanum_b"
                 android:text="textTitle"
                 android:textSize="25sp"
                 app:layout_constraintBottom_toTopOf="@+id/txt_con"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.116" />
+                app:layout_constraintVertical_bias="0.5" />
 
             <TextView
                 android:id="@+id/txt_con"
-                android:layout_width="match_parent"
-                android:layout_height="300dp"
+                android:layout_width="330dp"
+                android:layout_height="180dp"
                 android:fontFamily="@font/nanum_b"
                 android:text="textView"
                 android:textSize="23sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.41" />
+                app:layout_constraintVertical_bias="0.5" />
 
             <Button
                 android:id="@+id/btn_shutdown"
@@ -79,7 +79,8 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/txt_con" />
+                app:layout_constraintTop_toBottomOf="@+id/txt_con"
+                app:layout_constraintVertical_bias="0.741" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
