@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">꿈을드림</string>
+    <string name="title_home">홈</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_like">즐겨찾기</string>
+    <string name="title_search">검색</string>
+    <string name="title_card">카드조회</string>
+    <string name="title_more">더보기</string>
+    <string name="more_qna">Q&amp;A</string>
+    <string name="moreQcard1">하루 한번 사용 가능합니다.\n 결식 아동의 학교 밖에서의 올바른 식사를 위한 지원이기 때문에 석식으로 한번 사용이 가능합니다. \n방학기간에는 하루에 중식, 석식으로 두번 사용 가능합니다.</string>
+    <string name="moreQcard2">한끼 지원 금액은 지역마다 다릅니다. \n서울시 0,000원, 경기도 0,000원,~~~~~, 제주도 0,000원으로 하루 한끼 지원됩니다.</string>
+    <string name="moreQcard3">월별, 일주일 기간별로 충전일이 다릅니다. \n거주지에 해당하는 읍면동 사무소에 문의 부탁드립니다.</string>
+    <string name="moreQcard4">같이 사용 가능합니다. \n 금액범위 내에서 사용하시기 바랍니다.</string>
+</resources>

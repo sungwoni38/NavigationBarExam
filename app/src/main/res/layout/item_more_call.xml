@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_weight="2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:padding="8dp">
+
+
+
+    <TextView
+        android:id="@+id/txt_more_local"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="지역별"
+        android:textSize="20sp"
+        android:fontFamily="@font/nanum_b"/>
+
+    <TextView
+        android:id="@+id/txt_more_call"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="전화번호"
+        android:textSize="17sp"
+        android:fontFamily="@font/nanum_b" />
+
+
+</LinearLayout>
