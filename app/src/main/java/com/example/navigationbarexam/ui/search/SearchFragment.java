@@ -30,14 +30,14 @@ public class SearchFragment extends Fragment {
 
 
         view = inflater.inflate(R.layout.fragment_home, container,false);
-        img_italy = view.findViewById(R.id.img_italy);
-        img_italy.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                layout_kor = (LinearLayout) view.findViewById(R.id.layout_kor);
-                layout_kor.setVisibility(View.INVISIBLE);
-            }
-        });
+//        img_italy = view.findViewById(R.id.img_italy);
+//        img_italy.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                layout_kor = (LinearLayout) view.findViewById(R.id.layout_kor);
+//                layout_kor.setVisibility(View.INVISIBLE);
+//            }
+//        });
 
 
 
