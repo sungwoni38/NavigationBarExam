@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:tools="http://schemas.android.com/tools"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".ui.search.SearchFragment">
 
     <HorizontalScrollView
         android:id="@+id/horizontalScrollView"
         android:layout_width="match_parent"
         android:layout_height="80dp"
-        app:layout_constraintBottom_toTopOf="@+id/h_gline_2_2"
+        app:layout_constraintBottom_toTopOf="@+id/h_gline_3_3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/h_gline_2_1">
+        app:layout_constraintTop_toTopOf="@+id/h_gline_3_2">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -38,8 +38,8 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:fontFamily="@font/nanum_b"
-                    android:textSize="17sp"
-                    android:text="한식" />
+                    android:text="한식"
+                    android:textSize="17sp" />
             </LinearLayout>
 
             <LinearLayout
@@ -59,8 +59,8 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:fontFamily="@font/nanum_b"
-                    android:textSize="17sp"
-                    android:text="양식" />
+                    android:text="양식"
+                    android:textSize="17sp" />
             </LinearLayout>
 
             <LinearLayout
@@ -80,8 +80,8 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:fontFamily="@font/nanum_b"
-                    android:textSize="17sp"
-                    android:text="일식" />
+                    android:text="일식"
+                    android:textSize="17sp" />
             </LinearLayout>
 
             <LinearLayout
@@ -101,8 +101,8 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:fontFamily="@font/nanum_b"
-                    android:textSize="17sp"
-                    android:text="중식" />
+                    android:text="중식"
+                    android:textSize="17sp" />
             </LinearLayout>
 
             <LinearLayout
@@ -122,8 +122,8 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:fontFamily="@font/nanum_b"
-                    android:textSize="17sp"
-                    android:text="분식" />
+                    android:text="분식"
+                    android:textSize="17sp" />
             </LinearLayout>
 
             <LinearLayout
@@ -143,8 +143,8 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:fontFamily="@font/nanum_b"
-                    android:textSize="17sp"
-                    android:text="카페" />
+                    android:text="카페"
+                    android:textSize="17sp" />
             </LinearLayout>
 
             <LinearLayout
@@ -164,8 +164,8 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:fontFamily="@font/nanum_b"
-                    android:textSize="17sp"
-                    android:text="제과" />
+                    android:text="제과"
+                    android:textSize="17sp" />
             </LinearLayout>
 
             <LinearLayout
@@ -185,8 +185,8 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:fontFamily="@font/nanum_b"
-                    android:textSize="17sp"
-                    android:text="패스트푸드" />
+                    android:text="패스트푸드"
+                    android:textSize="17sp" />
 
             </LinearLayout>
 
@@ -207,35 +207,232 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:fontFamily="@font/nanum_b"
-                    android:textSize="17sp"
-                    android:text="기타" />
+                    android:text="기타"
+                    android:textSize="17sp" />
             </LinearLayout>
 
 
         </LinearLayout>
 
     </HorizontalScrollView>
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/h_gline_2_1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.1" />
 
     <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/h_gline_2_2"
+        android:id="@+id/h_gline_3_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.23" />
+        app:layout_constraintGuide_percent="0.18" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/h_gline_3_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.31" />
 
     <SearchView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
-        app:layout_constraintBottom_toTopOf="@+id/h_gline_2_1"
+        app:layout_constraintBottom_toTopOf="@+id/h_gline_3_2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/h_gline_3_1"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/h_gline_3_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.1" />
+
+    <LinearLayout
+        android:id="@+id/layout_kor"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="@+id/h_gline_3_3">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp"
+            android:layout_marginTop="8dp"
+            app:cardUseCompatPadding="true">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="5">
+
+                    <TextView
+                        android:id="@+id/txt_name_kor_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="5"
+                        android:fontFamily="@font/nanum_b"
+                        android:paddingLeft="4dp"
+                        android:paddingRight="4dp"
+                        android:text="본죽 망우우림시장점"
+                        android:textSize="18sp"/>
+
+                    <ImageView
+                        android:id="@+id/img_search_like1"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/ic_baseline_star_border_24" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/txt_call_kor_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/nanum_b"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="4dp"
+                    android:text="02-2207-6288" />
+
+                <TextView
+                    android:id="@+id/txt_add_kor_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/nanum_b"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="4dp"
+                    android:text="서울특별시 중랑구 망우동 403-69" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="8dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="5">
+                    <TextView
+                        android:id="@+id/txt_name_kor_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="한솥도시락"
+                        android:textSize="18sp"
+                        android:layout_gravity="center_vertical"
+                        android:paddingLeft="4dp"
+                        android:paddingRight="4dp"
+                        android:fontFamily="@font/nanum_b"
+                        android:layout_weight="5"/>
+                    <ImageView
+                        android:id="@+id/img_search_like2"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/ic_baseline_star_border_24"
+                        android:layout_weight="1"/>
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/txt_call_kor_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="02-960-0325"
+                    android:layout_gravity="center_vertical"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="4dp"
+                    android:fontFamily="@font/nanum_b"/>
+                <TextView
+                    android:id="@+id/txt_add_kor_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="서울특별시 동대문구 이문동 264-263"
+                    android:layout_gravity="center_vertical"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="4dp"
+                    android:fontFamily="@font/nanum_b"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="8dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="5">
+                    <TextView
+                        android:id="@+id/txt_name_kor_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="은주네 반찬"
+                        android:textSize="18sp"
+                        android:layout_gravity="center_vertical"
+                        android:paddingLeft="4dp"
+                        android:paddingRight="4dp"
+                        android:fontFamily="@font/nanum_b"
+                        android:layout_weight="5"/>
+                    <ImageView
+                        android:id="@+id/img_search_like3"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/ic_baseline_star_border_24"
+                        android:layout_weight="1"/>
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/txt_call_kor_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="070-7899-9713"
+                    android:layout_gravity="center_vertical"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="4dp"
+                    android:fontFamily="@font/nanum_b"/>
+                <TextView
+                    android:id="@+id/txt_add_kor_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="서울특별시 동대문구 전농로 38길 12"
+                    android:layout_gravity="center_vertical"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="4dp"
+                    android:fontFamily="@font/nanum_b"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

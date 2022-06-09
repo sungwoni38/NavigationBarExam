@@ -13,6 +13,7 @@ import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.widget.Toolbar;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 import androidx.fragment.app.Fragment;
@@ -41,16 +42,7 @@ public class HomeFragment extends Fragment implements OnMapReadyCallback, Google
 
 
         view = inflater.inflate(R.layout.fragment_home, container,false);
-        img_btn_noti = (ImageButton) view.findViewById(R.id.img_btn_noti);
 
-        img_btn_noti.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(getActivity(), NotiActivity.class);
-                intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
-                startActivity(intent);
-            }
-        });
 
         //mapView 부름
         sView = view.findViewById(R.id.mapView);
@@ -105,12 +97,25 @@ public class HomeFragment extends Fragment implements OnMapReadyCallback, Google
     public void onMapReady(@NonNull GoogleMap googleMap) {
         //마커찍기(위도, 경도)
         LatLng seoil = new LatLng(37.5859712, 127.097053);
+        LatLng kor1 = new LatLng(37.5954920, 127.100315);
+        LatLng kor2 = new LatLng(37.5983590, 127.055759);
+        LatLng kor3 = new LatLng(37.5857555, 127.052829);
 
         //마커옵션
         MarkerOptions marker = new MarkerOptions();
         marker.position(seoil); //마커 위치
         marker.title("서일대학교");
         marker.snippet("서울특별시 중랑구 면목3.8동 용마산로90길 28");
+
+        marker.position(kor1);
+        marker.title("본죽 망우우림시장점");
+
+        marker.position(kor2);
+        marker.title("한솥도시락 이문점");
+
+        marker.position(kor3);
+        marker.title("은주네 반찬");
+
 
         //맵에 마커표시, 인포윈도우 보여줌
         googleMap.addMarker(marker).showInfoWindow();
