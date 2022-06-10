@@ -108,28 +108,30 @@ public class HomeFragment extends Fragment implements OnMapReadyCallback, Google
     public void onMapReady(@NonNull GoogleMap googleMap) {
         //마커찍기(위도, 경도)
         LatLng seoil = new LatLng(37.5859712, 127.097053);
-//        LatLng kor1 = new LatLng(37.5954920, 127.100315);
-//        LatLng kor2 = new LatLng(37.5983590, 127.055759);
-//        LatLng kor3 = new LatLng(37.5857555, 127.052829);
+        LatLng kor1 = new LatLng(37.5954920, 127.100315);
+        LatLng kor2 = new LatLng(37.5983590, 127.055759);
+        LatLng kor3 = new LatLng(37.5857555, 127.052829);
 
         //마커옵션
         MarkerOptions marker = new MarkerOptions();
         marker.position(seoil); //마커 위치
         marker.title("서일대학교");
-        marker.snippet("서울특별시 중랑구 면목3.8동 용마산로90길 28");
+        marker.snippet("서울특별시 중랑구 면목동 용마산로90길 28");
 
-//        marker.position(kor1);
-//        marker.title("본죽 망우우림시장점");
-//
-//        marker.position(kor2);
-//        marker.title("한솥도시락 이문점");
-//
-//        marker.position(kor3);
-//        marker.title("은주네 반찬");
+        MarkerOptions marker2 = new MarkerOptions();
+        marker.position(kor1);
+        marker.title("본죽 망우우림시장점");
+
+        marker.position(kor2);
+        marker.title("한솥도시락 이문점");
+
+        marker.position(kor3);
+        marker.title("은주네 반찬");
 
 
         //맵에 마커표시, 인포윈도우 보여줌
         googleMap.addMarker(marker).showInfoWindow();
+        googleMap.addMarker(marker2).showInfoWindow();
         //인포윈도우 클릭
         googleMap.setOnInfoWindowClickListener(this);
         //맵뷰 카메라위치, 줌 설정
