@@ -1,5 +1,6 @@
 package com.example.navigationbarexam.ui.card;
 
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
@@ -22,6 +23,8 @@ public class CardAddActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_card_add);
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.hide();
 
         editMessage = findViewById(R.id.editMessage);
         btn_check = findViewById(R.id.btn_check);

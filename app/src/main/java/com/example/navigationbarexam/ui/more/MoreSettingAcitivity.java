@@ -1,5 +1,6 @@
 package com.example.navigationbarexam.ui.more;
 
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
@@ -14,6 +15,8 @@ public class MoreSettingAcitivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_more_setting);
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.hide();
 
 
     }

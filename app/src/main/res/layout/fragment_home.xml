@@ -138,14 +138,6 @@
 
     </LinearLayout>
 
-    <ImageButton
-        android:id="@+id/img_btn_noti"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:src="@drawable/ic_notifications_black_24dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
-
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/h_gline_1_1"
         android:layout_width="wrap_content"

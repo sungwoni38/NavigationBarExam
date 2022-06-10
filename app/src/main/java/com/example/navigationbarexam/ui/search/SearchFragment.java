@@ -29,7 +29,7 @@ public class SearchFragment extends Fragment {
                              ViewGroup container, Bundle savedInstanceState) {
 
 
-        view = inflater.inflate(R.layout.fragment_home, container,false);
+        view = inflater.inflate(R.layout.fragment_search, container,false);
 //        img_italy = view.findViewById(R.id.img_italy);
 //        img_italy.setOnClickListener(new View.OnClickListener() {
 //            @Override

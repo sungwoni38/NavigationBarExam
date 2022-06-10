@@ -1,5 +1,6 @@
 package com.example.navigationbarexam.ui.more;
 
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
@@ -21,6 +22,8 @@ public class MoreQnaActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_more_qna);
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.hide();
 
         //다이얼로그 밖의 화면 흐리게 만들어줌
         WindowManager.LayoutParams layoutParams = new WindowManager.LayoutParams();

@@ -1,5 +1,6 @@
 package com.example.navigationbarexam.ui.more;
 
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
@@ -19,6 +20,8 @@ public class MoreCallActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_more_call);
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.hide();
 
         list_more_all = findViewById(R.id.list_more_call);
         list_more_all.setOnItemClickListener(new AdapterView.OnItemClickListener() {

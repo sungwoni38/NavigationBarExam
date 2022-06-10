@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/LG/AndroidStudioProjects/NavigationBarExam/app/src/main/res/drawable/ic_baseline_star_24.xml" value="0.345" />
         <entry key="..\:/Users/LG/AndroidStudioProjects/NavigationBarExam/app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.3495" />
         <entry key="..\:/Users/LG/AndroidStudioProjects/NavigationBarExam/app/src/main/res/drawable/shape.xml" value="0.1065" />
         <entry key="..\:/Users/LG/AndroidStudioProjects/NavigationBarExam/app/src/main/res/layout/activity_card_add.xml" value="0.33" />
@@ -16,10 +17,11 @@
         <entry key="..\:/Users/LG/AndroidStudioProjects/NavigationBarExam/app/src/main/res/layout/activity_noti.xml" value="0.33" />
         <entry key="..\:/Users/LG/AndroidStudioProjects/NavigationBarExam/app/src/main/res/layout/fragment_card.xml" value="0.33" />
         <entry key="..\:/Users/LG/AndroidStudioProjects/NavigationBarExam/app/src/main/res/layout/fragment_home.xml" value="0.33" />
-        <entry key="..\:/Users/LG/AndroidStudioProjects/NavigationBarExam/app/src/main/res/layout/fragment_like.xml" value="0.17603850050658562" />
+        <entry key="..\:/Users/LG/AndroidStudioProjects/NavigationBarExam/app/src/main/res/layout/fragment_like.xml" value="0.33" />
         <entry key="..\:/Users/LG/AndroidStudioProjects/NavigationBarExam/app/src/main/res/layout/fragment_more.xml" value="0.3619791666666667" />
         <entry key="..\:/Users/LG/AndroidStudioProjects/NavigationBarExam/app/src/main/res/layout/fragment_notifications.xml" value="0.3614583333333333" />
         <entry key="..\:/Users/LG/AndroidStudioProjects/NavigationBarExam/app/src/main/res/layout/fragment_search.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/LG/AndroidStudioProjects/NavigationBarExam/app/src/main/res/layout/item_cardview.xml" value="0.3619791666666667" />
         <entry key="..\:/Users/LG/AndroidStudioProjects/NavigationBarExam/app/src/main/res/layout/item_more_call.xml" value="0.33" />
         <entry key="..\:/Users/LG/AndroidStudioProjects/NavigationBarExam/app/src/main/res/layout/item_more_card.xml" value="0.33" />
         <entry key="..\:/Users/LG/AndroidStudioProjects/NavigationBarExam/app/src/main/res/layout/item_more_shop.xml" value="0.3619791666666667" />

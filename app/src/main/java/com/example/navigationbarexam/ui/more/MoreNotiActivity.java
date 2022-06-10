@@ -1,5 +1,6 @@
 package com.example.navigationbarexam.ui.more;
 
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
@@ -15,6 +16,8 @@ public class MoreNotiActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_more_noti);
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.hide();
 
         ArrayList<Notification> data = new ArrayList<>();
         data.add(new Notification("동의서 개정","개인정보처리 방침 개정으로 인해 내용이 수정되었음을 알립니다.", "2022-06-02"));
